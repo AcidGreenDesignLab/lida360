@@ -30,7 +30,7 @@ export function Header() {
         </button>
       </div>
       {/* Outer drop shadow that does not render behind the translucent header */}
-      <div className="absolute top-full left-0 w-full h-[22px] bg-gradient-to-b from-black/35 to-transparent pointer-events-none" />
+      <div className="absolute top-full left-0 w-full h-[22px] bg-gradient-to-b from-black/45 to-transparent blur-sm pointer-events-none" />
     </header>
   );
 }
