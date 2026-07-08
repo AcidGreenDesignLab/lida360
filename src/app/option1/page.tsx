@@ -80,7 +80,7 @@ export default function Option1Page() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Card 1: Executive Branding */}
-            <div className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/30 hover:shadow-xl transition-all duration-300">
+            <Link href="/Consulting/executive-branding" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/30 hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
               <div className="w-full flex justify-center mb-6">
                 <img 
                   src="/icon_executive-coaching.png" 
@@ -92,10 +92,10 @@ export default function Option1Page() {
               <p className="font-sans text-base text-text-muted leading-relaxed">
                 Architect a brand DNA that commands respect and opens doors to elite opportunities.
               </p>
-            </div>
+            </Link>
 
             {/* Card 2: Reputation Recovery */}
-            <div className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/30 hover:shadow-xl transition-all duration-300">
+            <Link href="/Consulting/reputation-repair" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/30 hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
               <div className="w-full flex justify-center mb-6">
                 <img 
                   src="/icon_image-repair.png" 
@@ -107,10 +107,10 @@ export default function Option1Page() {
               <p className="font-sans text-base text-text-muted leading-relaxed">
                 Protect your professional capital. Move from crisis to control with a confidential, high-stakes strategy.
               </p>
-            </div>
+            </Link>
 
             {/* Card 3: The Human Advantage */}
-            <div className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/30 hover:shadow-xl transition-all duration-300">
+            <Link href="/Consulting" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/30 hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
               <div className="w-full flex justify-center mb-6">
                 <img 
                   src="/icon_personal-branding.png" 
@@ -122,7 +122,7 @@ export default function Option1Page() {
               <p className="font-sans text-base text-text-muted leading-relaxed">
                 Equip your organization with the frameworks for authentic influence that technology cannot replicate.
               </p>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
