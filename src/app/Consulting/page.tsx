@@ -33,13 +33,13 @@ export default function ConsultingPage() {
               </p>
             </div>
 
-            {/* Right: Rounded Image */}
+            {/* Right: Flipped image with white border and shadow */}
             <div className="lg:col-span-5 relative flex justify-center w-full">
-              <div className="relative w-full max-w-md aspect-[4/3] overflow-hidden rounded-[30px] shadow-2xl">
+              <div className="relative w-full max-w-md aspect-[4/3] overflow-hidden rounded-lg border-4 border-white shadow-2xl">
                 <img 
                   src="/consulting-hero-couch.jpg" 
                   alt="Lida Citroën Consulting" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover scale-x-[-1]"
                 />
               </div>
             </div>
