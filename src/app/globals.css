@@ -65,3 +65,15 @@ h1, h2, h3, h4, h5, h6 {
   background: #5C6771;
   border-radius: 3px;
 }
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
