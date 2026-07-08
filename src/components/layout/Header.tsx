@@ -3,7 +3,7 @@ import { Navigation } from './Navigation';
 
 export function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-glass-surface backdrop-blur-md border-b border-glass-border shadow-[0_4px_30px_rgba(0,0,0,0.5)] px-6 py-4 flex items-center justify-between">
+    <header className="fixed top-0 left-0 w-full z-50 bg-glass-surface backdrop-blur-md border-b border-glass-border shadow-2xl px-6 py-4 flex items-center justify-between">
       <div className="flex items-center">
         <Link href="/" className="flex flex-col items-start" aria-label="LIDA360 Home">
           <span className="font-heading text-4xl font-bold tracking-tight text-white">
