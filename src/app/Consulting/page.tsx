@@ -37,7 +37,7 @@ export default function ConsultingPage() {
             <div className="lg:col-span-5 relative flex justify-center w-full">
               <div className="relative w-full max-w-md aspect-[4/3] overflow-hidden rounded-lg border-4 border-white shadow-2xl">
                 <img 
-                  src="/consulting-hero-couch.jpg" 
+                  src="/JES04066-FIX.jpg" 
                   alt="Lida Citroën Consulting" 
                   className="w-full h-full object-cover scale-x-[-1]"
                 />
