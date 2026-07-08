@@ -1,0 +1,1 @@
+"export default function PodcastPage() {\n  return (\n    <div className=\"py-20 px-6 max-w-7xl mx-auto\">\n      <h1 className=\"text-5xl mb-8\">Podcast</h1>\n      <p className=\"font-sans text-lg text-text-muted\">Episodes and information about the podcast.</p>\n    </div>\n  );\n}"

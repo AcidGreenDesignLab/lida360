@@ -1,0 +1,1 @@
+"export default function BooksPage() {\n  return (\n    <div className=\"py-20 px-6 max-w-7xl mx-auto\">\n      <h1 className=\"text-5xl mb-8\">Books</h1>\n      <p className=\"font-sans text-lg text-text-muted\">Books authored by Lida Citroën.</p>\n    </div>\n  );\n}"

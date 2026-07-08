@@ -1,0 +1,1 @@
+"export default function SpeakingPage() {\n  return (\n    <div className=\"py-20 px-6 max-w-7xl mx-auto\">\n      <h1 className=\"text-5xl mb-8\">Speaking</h1>\n      <p className=\"font-sans text-lg text-text-muted\">Speaking engagements and topics by Lida Citroën.</p>\n    </div>\n  );\n}"

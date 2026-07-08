@@ -1,0 +1,1 @@
+"export default function MediaPage() {\n  return (\n    <div className=\"py-20 px-6 max-w-7xl mx-auto\">\n      <h1 className=\"text-5xl mb-8\">Media</h1>\n      <p className=\"font-sans text-lg text-text-muted\">Media appearances, interviews, and press mentions.</p>\n    </div>\n  );\n}"

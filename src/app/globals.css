@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  /* Design system tokens */
+  --color-text-primary: #252321;
+  --color-surface-deep: #0A112D;
+  --color-accent-pink: #D14A9B;
+  --color-accent-citron: #B9BF33;
+  --color-bg-primary: #FDFDFD;
+  --color-bg-pure: #FFFFFF;
+  --color-ui-muted: #5C6771;
+
+  /* Component class mappings */
+  --color-primary: #252321;
+  --color-secondary: #D14A9B;
+  --color-accent: #D14A9B;
+  --color-accent-light: #E06BAE;
+  --color-surface-white: #FFFFFF;
+  --color-surface-light: #E2E8F0;
+  --color-surface: #FDFDFD;
+  --color-text-muted: #5C6771;
+  --color-gray-dark: #252321;
+  --color-text: #252321;
+  --color-bg-alt: #F5F5F5;
+
+  /* Glassmorphism tokens */
+  --color-glass-surface: rgba(10, 17, 45, 0.7);
+  --color-glass-border: rgba(255, 255, 255, 0.3);
+  --radius-glass: 10px;
+
+  --font-display: "Neue Haas Grotesk Display Pro", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Neue Haas Grotesk Text Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+::selection {
+  background-color: rgba(209, 74, 155, 0.2);
+  color: #252321;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FDFDFD;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5C6771;
+  border-radius: 3px;
+}

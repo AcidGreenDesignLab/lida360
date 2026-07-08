@@ -1,0 +1,1 @@
+"export default function ReputationRepairPage() {\n  return (\n    <div className=\"py-20 px-6 max-w-7xl mx-auto\">\n      <h1 className=\"text-5xl mb-8\">Reputation Repair</h1>\n      <p className=\"font-sans text-lg text-text-muted\">Reputation management and repair services.</p>\n    </div>\n  );\n}"

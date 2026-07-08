@@ -1,0 +1,1 @@
+"export default function ExecutiveBrandingPage() {\n  return (\n    <div className=\"py-20 px-6 max-w-7xl mx-auto\">\n      <h1 className=\"text-5xl mb-8\">Executive Branding</h1>\n      <p className=\"font-sans text-lg text-text-muted\">Executive Branding services for high-achieving leaders.</p>\n    </div>\n  );\n}"

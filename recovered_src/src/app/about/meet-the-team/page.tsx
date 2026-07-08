@@ -1,0 +1,1 @@
+"export default function MeetTheTeamPage() {\n  return (\n    <div className=\"py-20 px-6 max-w-7xl mx-auto\">\n      <h1 className=\"text-5xl mb-8\">Meet The Team</h1>\n      <p className=\"font-sans text-lg text-text-muted\">Profiles of the LIDA360 team.</p>\n    </div>\n  );\n}"
