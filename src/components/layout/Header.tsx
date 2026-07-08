@@ -3,7 +3,7 @@ import { Navigation } from './Navigation';
 
 export function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-[#0A112D]/90 backdrop-blur-md border-b border-glass-border px-6 py-4 flex items-center justify-between">
+    <header className="fixed top-0 left-0 w-full z-50 bg-[#0A112D]/98 backdrop-blur-md border-b border-glass-border px-6 py-4 flex items-center justify-between">
       <div className="flex items-center">
         <Link href="/" className="flex flex-col items-start" aria-label="LIDA360 Home">
           <span className="font-heading text-4xl font-bold tracking-tight text-white">
@@ -30,7 +30,7 @@ export function Header() {
         </button>
       </div>
       {/* Outer drop shadow that does not render behind the translucent header */}
-      <div className="absolute top-full left-0 w-full h-3 bg-gradient-to-b from-black/35 to-transparent pointer-events-none" />
+      <div className="absolute top-full left-0 w-full h-[22px] bg-gradient-to-b from-black/35 to-transparent pointer-events-none" />
     </header>
   );
 }
