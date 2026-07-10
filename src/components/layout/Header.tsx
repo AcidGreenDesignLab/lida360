@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-[#0A112D]/98 backdrop-blur-md border-b border-glass-border px-6 py-4 flex items-center justify-between">
       <div className="flex items-center">
-        <Link href="/option1" className="flex flex-col items-start" aria-label="LIDA360 Home">
+        <Link href="/" className="flex flex-col items-start" aria-label="LIDA360 Home">
           <span className="font-heading text-4xl font-bold tracking-tight text-white">
             <span>LIDA</span><span className="text-accent-pink">360</span>
           </span>
