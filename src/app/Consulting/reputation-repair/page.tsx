@@ -191,13 +191,13 @@ export default function ReputationRepairPage() {
             </h2>
           </div>
 
-          <div className="bg-[#FCFCFC] border-4 border-white shadow-lg hover:shadow-2xl transition-all duration-300 rounded-lg overflow-hidden grid grid-cols-1 lg:grid-cols-12 items-stretch">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Case Study Copy */}
-            <div className="p-8 lg:p-12 lg:col-span-7 flex flex-col justify-center text-left">
-              <span className="text-accent-pink font-sans text-xs font-semibold tracking-wider block mb-2 uppercase">
+            <div className="lg:col-span-7 text-left text-text-primary">
+              <span className="text-accent-pink font-sans text-[16px] font-bold tracking-[0.12em] uppercase mb-4 block">
                 From Workplace Mobbing to Values-Driven Work
               </span>
-              <h3 className="text-2xl lg:text-3xl font-display font-bold mb-6 text-text-primary">
+              <h3 className="text-3xl lg:text-4xl font-display font-bold mb-6 text-text-primary leading-tight">
                 Restoring Career, Confidence, and Control
               </h3>
               <p className="font-sans text-lg text-text-muted mb-6 leading-relaxed">
@@ -214,12 +214,14 @@ export default function ReputationRepairPage() {
             </div>
 
             {/* Case Study Image */}
-            <div className="lg:col-span-5 relative min-h-[300px]">
-              <img 
-                src="/iStock-942149588-1.jpg" 
-                alt="Case Study Workplace Recovery" 
-                className="absolute inset-0 w-full h-full object-cover"
-              />
+            <div className="lg:col-span-5 flex justify-center w-full">
+              <div className="relative w-full max-w-md aspect-[4/3] overflow-hidden rounded-lg border-4 border-white shadow-2xl">
+                <img 
+                  src="/iStock-942149588-1.jpg" 
+                  alt="Case Study Workplace Recovery" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
