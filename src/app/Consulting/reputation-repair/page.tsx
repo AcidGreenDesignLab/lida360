@@ -191,7 +191,7 @@ export default function ReputationRepairPage() {
             </h2>
           </div>
 
-          <div className="bg-[#FCFCFC] border-4 border-white shadow-2xl rounded-lg overflow-hidden grid grid-cols-1 lg:grid-cols-12 items-stretch">
+          <div className="bg-[#FCFCFC] border-4 border-white shadow-lg hover:shadow-2xl transition-all duration-300 rounded-lg overflow-hidden grid grid-cols-1 lg:grid-cols-12 items-stretch">
             {/* Case Study Copy */}
             <div className="p-8 lg:p-12 lg:col-span-7 flex flex-col justify-center text-left">
               <span className="text-accent-pink font-sans text-xs font-semibold tracking-wider block mb-2 uppercase">

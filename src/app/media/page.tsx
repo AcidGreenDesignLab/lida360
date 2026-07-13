@@ -67,7 +67,7 @@ export default function MediaPage() {
             {mediaOutlets.map((outlet, idx) => (
               <div 
                 key={idx}
-                className="bg-[#FCFCFC] p-6 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/30 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-center items-center min-h-[120px] text-center"
+                className="bg-[#FCFCFC] p-6 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex flex-col justify-center items-center min-h-[120px] text-center"
               >
                 <span className="font-display text-xl font-bold text-text-primary block mb-1">{outlet.name}</span>
                 <span className="text-accent-pink font-sans text-xs font-semibold uppercase tracking-wider">{outlet.type}</span>
@@ -113,7 +113,7 @@ export default function MediaPage() {
             </div>
 
             {/* Right: Speaker kit Box */}
-            <div className="lg:col-span-5 bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-2xl">
+            <div className="lg:col-span-5 bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
               <span className="text-accent-citron font-sans text-xs font-bold tracking-[0.15em] uppercase mb-3 block">Speaker Resources</span>
               <h3 className="text-2xl font-display font-bold mb-4 text-text-primary">Download LIDA360 Media Kit</h3>
               <p className="font-sans text-sm text-text-muted leading-relaxed mb-6">

@@ -222,7 +222,7 @@ export default function SpeakingPage() {
             {speakToAudiences.map((audience, idx) => (
               <div 
                 key={idx}
-                className="bg-[#FCFCFC] p-6 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/30 hover:scale-[1.02] transition-all duration-300 flex items-center min-h-[120px]"
+                className="bg-[#FCFCFC] p-6 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex items-center min-h-[120px]"
               >
                 <div className="flex items-center gap-4">
                   <span className="w-2.5 h-2.5 bg-accent-pink rounded-full flex-shrink-0" />
@@ -250,7 +250,7 @@ export default function SpeakingPage() {
             {topics.map((topic, idx) => (
               <div 
                 key={idx}
-                className="border border-ui-muted/10 border-l-4 border-l-accent-pink rounded-r-lg rounded-l-md bg-[#FCFCFC] p-8 lg:p-10 flex flex-col lg:flex-row items-start gap-8 justify-between shadow-2xl hover:shadow-xl transition-all duration-300"
+                className="border border-ui-muted/10 border-l-4 border-l-accent-pink rounded-r-lg rounded-l-md bg-[#FCFCFC] p-8 lg:p-10 flex flex-col lg:flex-row items-start gap-8 justify-between shadow-lg hover:shadow-2xl transition-all duration-300"
               >
                 {/* Topic Number, Icon, and Info */}
                 <div className="flex flex-col md:flex-row items-start gap-6 md:gap-8 flex-grow w-full">

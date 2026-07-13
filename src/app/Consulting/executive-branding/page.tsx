@@ -159,7 +159,7 @@ export default function ExecutiveBrandingPage() {
             </div>
 
             {/* Right side: Methodology Cards / Highlight Box */}
-            <div className="lg:col-span-5 bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-2xl">
+            <div className="lg:col-span-5 bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
               <h3 className="text-2xl font-display font-bold mb-4 text-text-primary">Build Your Brand with Purpose</h3>
               <p className="font-sans text-base text-text-muted leading-relaxed mb-6">
                 To enhance your presence as a leader, make a pivot in your career, or leave a legacy you can be proud of, you need to be in control of how you’re seen.
@@ -280,7 +280,7 @@ export default function ExecutiveBrandingPage() {
             {caseStudies.map((study, idx) => (
               <div 
                 key={idx} 
-                className="flex flex-col justify-between bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/30 hover:shadow-xl hover:scale-[1.02] transition-all duration-300 cursor-default"
+                className="flex flex-col justify-between bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 cursor-default"
               >
                 <div>
                   <h3 className="font-display text-2xl font-bold mb-1 text-text-primary">{study.name}</h3>

@@ -124,7 +124,7 @@ export default function AboutPage() {
             {roles.map((role, idx) => (
               <div 
                 key={idx}
-                className="bg-[#FCFCFC] p-6 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/30 hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between"
+                className="bg-[#FCFCFC] p-6 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
                   <div className="relative w-12 h-12 flex items-center justify-center mb-4 flex-shrink-0">
@@ -225,7 +225,7 @@ export default function AboutPage() {
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-10 max-w-3xl mx-auto">
             What clients say about working with Lida.
           </h2>
-          <div className="bg-[#FCFCFC] border-4 border-white p-8 md:p-12 rounded-lg shadow-2xl max-w-3xl mx-auto text-left relative">
+          <div className="bg-[#FCFCFC] border-4 border-white p-8 md:p-12 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 max-w-3xl mx-auto text-left relative">
             <span className="text-accent-pink font-serif text-6xl absolute top-4 left-4 opacity-25">&ldquo;</span>
             <p className="font-sans text-lg md:text-xl text-text-primary italic mb-6 leading-relaxed pl-6 relative z-10">
               Lida has a dynamic combination of intelligence, listening skills, and passion that makes her an invaluable collaborator. She guides you outside your comfort zone to see options you never knew existed.

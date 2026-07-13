@@ -80,7 +80,7 @@ export default function MeetLidaAndTheTeamPage() {
             {team.map((member, idx) => (
               <div 
                 key={idx}
-                className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center bg-[#FCFCFC] p-8 md:p-10 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/20 transition-all duration-300"
+                className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center bg-[#FCFCFC] p-8 md:p-10 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/20 hover:shadow-2xl transition-all duration-300"
               >
                 {/* Member Photo */}
                 <div className="lg:col-span-4 flex justify-center w-full">

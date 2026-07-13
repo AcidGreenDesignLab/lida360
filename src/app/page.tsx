@@ -80,7 +80,7 @@ export default function Option1Page() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Card 1: Executive Branding */}
-            <Link href="/Consulting/executive-branding" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/30 hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
+            <Link href="/Consulting/executive-branding" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
               <div className="w-full flex justify-center mb-6">
                 <img 
                   src="/icon_executive-coaching.png" 
@@ -95,7 +95,7 @@ export default function Option1Page() {
             </Link>
 
             {/* Card 2: Reputation Recovery */}
-            <Link href="/Consulting/reputation-repair" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/30 hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
+            <Link href="/Consulting/reputation-repair" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
               <div className="w-full flex justify-center mb-6">
                 <img 
                   src="/icon_image-repair.png" 
@@ -110,7 +110,7 @@ export default function Option1Page() {
             </Link>
 
             {/* Card 3: The Human Advantage */}
-            <Link href="/Consulting" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-2xl hover:border-accent-pink/30 hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
+            <Link href="/Consulting" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
               <div className="w-full flex justify-center mb-6">
                 <img 
                   src="/icon_personal-branding.png" 
@@ -184,7 +184,7 @@ export default function Option1Page() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 w-full">
             {/* Service 1: Executive Coaching */}
-            <div className="p-8 bg-[#FCFCFC] border-4 border-white rounded-lg shadow-2xl hover:shadow-lg transition-shadow">
+            <div className="p-8 bg-[#FCFCFC] border-4 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
               <h3 className="font-display text-2xl font-bold mb-4 text-primary">Executive Coaching</h3>
               <p className="font-sans text-sm text-text-muted mb-6">
                 confidential 1:1 guidance to refine your personal presence and leadership reputation.
@@ -195,7 +195,7 @@ export default function Option1Page() {
             </div>
 
             {/* Service 2: Speaking */}
-            <div className="p-8 bg-[#FCFCFC] border-4 border-white rounded-lg shadow-2xl hover:shadow-lg transition-shadow">
+            <div className="p-8 bg-[#FCFCFC] border-4 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
               <h3 className="font-display text-2xl font-bold mb-4 text-primary">Speaking</h3>
               <p className="font-sans text-sm text-text-muted mb-6">
                 Keynotes and workshops that provide actionable strategies for authentic leadership.
@@ -206,7 +206,7 @@ export default function Option1Page() {
             </div>
 
             {/* Service 3: Podcast */}
-            <div className="p-8 bg-[#FCFCFC] border-4 border-white rounded-lg shadow-2xl hover:shadow-lg transition-shadow">
+            <div className="p-8 bg-[#FCFCFC] border-4 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
               <h3 className="font-display text-2xl font-bold mb-4 text-primary">Podcast</h3>
               <p className="font-sans text-sm text-text-muted mb-6">
                 Deep dives and insights on reputation management, personal branding, and career growth.
