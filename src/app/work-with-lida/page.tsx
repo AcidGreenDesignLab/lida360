@@ -23,7 +23,7 @@ export default function WorkWithLidaPage() {
         <div className="max-w-7xl mx-auto px-6 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch">
             {/* Left: Interactive Form */}
-            <div className="lg:col-span-7 bg-[#FCFCFC] p-8 md:p-10 border-4 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 text-left">
+            <div className="lg:col-span-7 bg-[#FCFCFC] p-8 md:p-10 border-4 border-white rounded-lg shadow-lg text-left">
               <h2 className="text-2xl font-display font-bold mb-8 text-text-primary">Send Lida a Message</h2>
               
               <form className="space-y-6">
