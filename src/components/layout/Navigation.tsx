@@ -32,11 +32,19 @@ const links: NavLink[] = [
 
 export function Navigation() {
   return (
-    <nav aria-label="Primary Navigation" className="hidden md:flex space-x-6 items-center">
-      {links.map((link) => {
+    <nav aria-label="Primary Navigation" className="hidden md:flex items-center">
+      {links.map((link, idx) => {
+        // Determine custom margin-left for spacing:
+        // - Speaking -> Consulting (idx 1): 30px
+        // - Consulting -> Military (idx 2): 24px
+        // - Military -> About (idx 3): 30px
+        // - About -> Books (idx 4): 24px
+        // - Books -> Podcast (idx 5): 30px
+        const marginLeft = idx === 0 ? '0px' : (idx === 1 || idx === 3 || idx === 5) ? '30px' : '24px';
+
         if (link.submenu) {
           return (
-            <div key={link.href} className="relative group py-2">
+            <div key={link.href} style={{ marginLeft }} className="relative group py-2">
               <Link 
                 href={link.href}
                 className="text-white/90 hover:text-accent-pink font-sans text-lg transition-colors inline-flex items-center gap-1"
@@ -75,6 +83,7 @@ export function Navigation() {
           <Link 
             key={link.href} 
             href={link.href}
+            style={{ marginLeft }}
             className="text-white/90 hover:text-accent-pink font-sans text-lg transition-colors"
           >
             {link.label}
