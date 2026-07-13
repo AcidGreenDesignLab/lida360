@@ -32,18 +32,18 @@ const links: NavLink[] = [
 
 export function Navigation() {
   return (
-    <nav aria-label="Primary Navigation" className="hidden md:flex space-x-6 items-center">
+    <nav aria-label="Primary Navigation" className="hidden md:flex space-x-4 items-center">
       {links.map((link) => {
         if (link.submenu) {
           return (
             <div key={link.href} className="relative group py-2">
               <Link 
                 href={link.href}
-                className="text-white/90 hover:text-accent-pink font-sans text-lg transition-colors inline-flex items-center gap-1"
+                className="text-white/90 hover:text-accent-pink font-sans text-lg transition-colors inline-flex items-center pr-5 relative"
               >
                 {link.label}
                 <svg 
-                  className="w-4 h-4 transition-transform duration-200 group-hover:rotate-180 text-ui-muted" 
+                  className="w-4 h-4 transition-transform duration-200 group-hover:rotate-180 text-ui-muted absolute right-0 top-1/2 -translate-y-1/2" 
                   fill="none" 
                   viewBox="0 0 24 24" 
                   strokeWidth="2" 
@@ -75,7 +75,7 @@ export function Navigation() {
           <Link 
             key={link.href} 
             href={link.href}
-            className="text-white/90 hover:text-accent-pink font-sans text-lg transition-colors"
+            className="text-white/90 hover:text-accent-pink font-sans text-lg transition-colors inline-flex items-center pr-5"
           >
             {link.label}
           </Link>
