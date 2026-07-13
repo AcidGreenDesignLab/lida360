@@ -32,7 +32,7 @@ const links: NavLink[] = [
 
 export function Navigation() {
   return (
-    <nav aria-label="Primary Navigation" className="hidden md:flex space-x-6 items-center">
+    <nav aria-label="Primary Navigation" className="hidden md:flex space-x-4 items-center">
       {links.map((link) => {
         if (link.submenu) {
           return (
@@ -75,7 +75,7 @@ export function Navigation() {
           <Link 
             key={link.href} 
             href={link.href}
-            className="text-white/90 hover:text-accent-pink font-sans text-lg transition-colors"
+            className="text-white/90 hover:text-accent-pink font-sans text-lg transition-colors inline-flex items-center pr-5"
           >
             {link.label}
           </Link>
