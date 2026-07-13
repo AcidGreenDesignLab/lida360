@@ -35,12 +35,12 @@ export function Navigation() {
     <nav aria-label="Primary Navigation" className="hidden md:flex items-center">
       {links.map((link, idx) => {
         // Determine custom margin-left for spacing:
-        // - Speaking -> Consulting (idx 1): 30px
+        // - Speaking -> Consulting (idx 1): 34px
         // - Consulting -> Military (idx 2): 24px
-        // - Military -> About (idx 3): 30px
+        // - Military -> About (idx 3): 34px
         // - About -> Books (idx 4): 24px
-        // - Books -> Podcast (idx 5): 30px
-        const marginLeft = idx === 0 ? '0px' : (idx === 1 || idx === 3 || idx === 5) ? '30px' : '24px';
+        // - Books -> Podcast (idx 5): 34px
+        const marginLeft = idx === 0 ? '0px' : (idx === 1 || idx === 3 || idx === 5) ? '34px' : '24px';
 
         if (link.submenu) {
           return (
