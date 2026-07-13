@@ -67,7 +67,7 @@ export default function MediaPage() {
             {mediaOutlets.map((outlet, idx) => (
               <div 
                 key={idx}
-                className="bg-[#FCFCFC] p-6 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex flex-col justify-center items-center min-h-[120px] text-center"
+                className="bg-[#FCFCFC] p-6 border-4 border-white rounded-lg shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex flex-col justify-center items-center min-h-[120px] text-center"
               >
                 <span className="font-display text-xl font-bold text-text-primary block mb-1">{outlet.name}</span>
                 <span className="text-accent-pink font-sans text-xs font-semibold uppercase tracking-wider">{outlet.type}</span>

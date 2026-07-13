@@ -124,7 +124,7 @@ export default function AboutPage() {
             {roles.map((role, idx) => (
               <div 
                 key={idx}
-                className="bg-[#FCFCFC] p-6 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between"
+                className="bg-[#FCFCFC] p-6 border-4 border-white rounded-lg shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
                   <div className="relative w-12 h-12 flex items-center justify-center mb-4 flex-shrink-0">

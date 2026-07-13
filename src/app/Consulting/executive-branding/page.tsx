@@ -280,7 +280,7 @@ export default function ExecutiveBrandingPage() {
             {caseStudies.map((study, idx) => (
               <div 
                 key={idx} 
-                className="flex flex-col justify-between bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 cursor-default"
+                className="flex flex-col justify-between bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 cursor-default"
               >
                 <div>
                   <h3 className="font-display text-2xl font-bold mb-1 text-text-primary">{study.name}</h3>

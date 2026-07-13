@@ -80,7 +80,7 @@ export default function Option1Page() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Card 1: Executive Branding */}
-            <Link href="/Consulting/executive-branding" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
+            <Link href="/Consulting/executive-branding" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
               <div className="w-full flex justify-center mb-6">
                 <img 
                   src="/icon_executive-coaching.png" 
@@ -95,7 +95,7 @@ export default function Option1Page() {
             </Link>
 
             {/* Card 2: Reputation Recovery */}
-            <Link href="/Consulting/reputation-repair" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
+            <Link href="/Consulting/reputation-repair" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
               <div className="w-full flex justify-center mb-6">
                 <img 
                   src="/icon_image-repair.png" 
@@ -110,7 +110,7 @@ export default function Option1Page() {
             </Link>
 
             {/* Card 3: The Human Advantage */}
-            <Link href="/Consulting" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
+            <Link href="/Consulting" className="flex flex-col items-center md:items-start text-center md:text-left bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] cursor-pointer">
               <div className="w-full flex justify-center mb-6">
                 <img 
                   src="/icon_personal-branding.png" 

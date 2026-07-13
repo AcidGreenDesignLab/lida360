@@ -70,7 +70,7 @@ export default function BlogPage() {
             {posts.map((post, idx) => (
               <div 
                 key={idx}
-                className="flex flex-col justify-between bg-[#FCFCFC] border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 overflow-hidden group cursor-pointer"
+                className="flex flex-col justify-between bg-[#FCFCFC] border-4 border-white rounded-lg shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 overflow-hidden group cursor-pointer"
               >
                 {/* Post Graphic */}
                 <div className="aspect-square relative overflow-hidden bg-bg-pure border-b border-ui-muted/10">

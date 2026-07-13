@@ -134,7 +134,7 @@ export default function MilitaryPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Box 1: For Veterans */}
-            <div className="bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between">
+            <div className="bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col justify-between">
               <div>
                 <span className="text-accent-citron font-sans text-sm font-bold tracking-[0.15em] uppercase mb-4 block">For Veterans</span>
                 <h3 className="text-2xl font-display font-bold mb-6 text-text-primary">Achieve Your Next Mission</h3>
@@ -165,7 +165,7 @@ export default function MilitaryPage() {
             </div>
 
             {/* Box 2: For Employers */}
-            <div className="bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl transition-all duration-300 flex flex-col justify-between">
+            <div className="bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col justify-between">
               <div>
                 <span className="text-accent-citron font-sans text-sm font-bold tracking-[0.15em] uppercase mb-4 block">For Employers</span>
                 <h3 className="text-2xl font-display font-bold mb-6 text-text-primary">Harness Veteran Talent</h3>

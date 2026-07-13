@@ -64,7 +64,7 @@ export default function BooksPage() {
             {books.map((book, idx) => (
               <div 
                 key={idx}
-                className="bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl transition-all duration-300"
+                className="bg-[#FCFCFC] p-8 border-4 border-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300"
               >
                 {/* Book Cover Cover */}
                 <div className="w-48 flex-shrink-0 flex items-center justify-center bg-bg-pure p-4 rounded-md shadow-sm border border-ui-muted/10">

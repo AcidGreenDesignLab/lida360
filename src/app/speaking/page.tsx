@@ -222,7 +222,7 @@ export default function SpeakingPage() {
             {speakToAudiences.map((audience, idx) => (
               <div 
                 key={idx}
-                className="bg-[#FCFCFC] p-6 border-4 border-white rounded-lg shadow-lg hover:border-accent-pink/30 hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex items-center min-h-[120px]"
+                className="bg-[#FCFCFC] p-6 border-4 border-white rounded-lg shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 flex items-center min-h-[120px]"
               >
                 <div className="flex items-center gap-4">
                   <span className="w-2.5 h-2.5 bg-accent-pink rounded-full flex-shrink-0" />
